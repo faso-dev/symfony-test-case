@@ -1,0 +1,6 @@
+App\Entity\Invitation:
+  invitation:
+    code: "12345"
+    description: "code de test"
+    expire_at: <dateTime("+1 year")>
+

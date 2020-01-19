@@ -1,0 +1,13 @@
+App\Entity\User:
+  user:
+    email: "user@domain.faso-dev"
+    roles: []
+    password: "\\$argon2id\\$v=19\\$m=65536,t=4,p=1\\$ISRzlcV35XoIa1qmt2kVAQ\\$81UmMQcpdyvm4ryjAGltZvt9qoLqOKrCXYjy6FX0u/k"
+  user_admin:
+    email: "admin@domain.faso-dev"
+    roles: ["ROLE_ADMIN"]
+    password: "\\$argon2id\\$v=19\\$m=65536,t=4,p=1\\$ISRzlcV35XoIa1qmt2kVAQ\\$81UmMQcpdyvm4ryjAGltZvt9qoLqOKrCXYjy6FX0u/k"
+  user_super_admin:
+    email: "super_admin@domain.faso-dev"
+    roles: ["ROLE_SUPER_ADMIN"]
+    password: "\\$argon2id\\$v=19\\$m=65536,t=4,p=1\\$ISRzlcV35XoIa1qmt2kVAQ\\$81UmMQcpdyvm4ryjAGltZvt9qoLqOKrCXYjy6FX0u/k"
